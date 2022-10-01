@@ -5,6 +5,13 @@
 # Use this after you strap the box with pacstrap
 
 arch-chroot /mnt
+
+rm -rf /etc/pacman.d/gnupg/
+pacman-key --init
+pacman-key --populate archlinux
+pacman -Sc --noconfirm
+pacman -Syyu
+
 pacman -S --noconfirm texinfo man-pages man-db vim dhcpcd networkmanager grub efibootmgr inetutils
 
 ln -sf /usr/share/zoneinfo/America/Vancouver /etc/localtime
