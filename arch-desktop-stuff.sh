@@ -8,10 +8,6 @@ echo "e:changeme" | chpasswd
 
 echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
-# network
-systemctl enable NetworkManager
-systemctl start NetworkManager
-
 # sshd
 pacman -S --noconfirm openssh
 systemctl enable sshd
