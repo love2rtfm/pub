@@ -19,7 +19,7 @@ echo "archbox" > /etc/hostname
 
 mkinitcpio -P
 
-chpasswd root:changeme
+echo "root:changeme" | chpasswd
 
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
@@ -31,4 +31,4 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 umount -R /mnt
 
-reboot
+# reboot
