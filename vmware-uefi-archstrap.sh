@@ -6,16 +6,19 @@
 # Make it UEFI booting
 #
 
-fdisk << EOF
+fdisk /dev/nvme0n1 << EOF
 g
 n
 1
+
 +500m
 t
 1
 n
 p
 2
+
+
 w
 EOF
 
