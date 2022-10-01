@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# curl https://raw.githubusercontent.com/love2rtfm/pub/main/arch-desktop-stuff.sh | /bin/sh
+#
 
 useradd -G wheel -m e
 echo "e:changeme" | chpasswd
