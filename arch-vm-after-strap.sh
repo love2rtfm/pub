@@ -5,7 +5,7 @@
 # Use this after you strap the box with pacstrap
 
 arch-chroot /mnt
-pacman -S texinfo man-pages man-db vim dhcpcd networkmanager grub efibootmgr inetutils
+pacman -S --noconfirm texinfo man-pages man-db vim dhcpcd networkmanager grub efibootmgr inetutils
 
 ln -sf /usr/share/zoneinfo/America/Vancouver /etc/localtime
 
