@@ -24,7 +24,7 @@ pacman -S --noconfirm i3
 #git clone https://aur.archlinux.org/nomachine.git
 #cd nomachine
 #makepkg -si --noconfirm
-#sudo pacman -U --noconfirm nomachine*pkg*xz
+#sudo pacman -U --noconfirm nomachine*pkg*
 #
 #sudo systemctl enable nxserver.service
 #sudo systemctl start nxserver.service
