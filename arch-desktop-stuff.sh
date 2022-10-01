@@ -20,11 +20,11 @@ pacman -S --noconfirm usbutils bash-completion podman traceroute base-devel
 # i3 desktop
 pacman -S --noconfirm i3
 
-# nx
-git clone https://aur.archlinux.org/nomachine.git
-cd nomachine
-makepkg -si
-sudo pacman -U --noconfirm nomachine*pkg*xz
-
-sudo systemctl enable nxserver.service
-sudo systemctl start nxserver.service
+# nx -- Need to do this as non-priv user
+#git clone https://aur.archlinux.org/nomachine.git
+#cd nomachine
+#makepkg -si
+#sudo pacman -U --noconfirm nomachine*pkg*xz
+#
+#sudo systemctl enable nxserver.service
+#sudo systemctl start nxserver.service
