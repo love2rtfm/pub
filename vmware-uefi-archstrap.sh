@@ -1,8 +1,11 @@
 #/bin/sh
 #
+# curl https://raw.githubusercontent.com/love2rtfm/pub/main/vmware-uefi-archstrap.sh | /bin/sh
+#
 # Create a VM with a NVME disk
 # Make it UEFI booting
 #
+
 fdisk << EOF
 g
 n
