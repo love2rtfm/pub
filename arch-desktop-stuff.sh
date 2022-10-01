@@ -23,7 +23,7 @@ pacman -S --noconfirm i3
 # nx -- Need to do this as non-priv user
 #git clone https://aur.archlinux.org/nomachine.git
 #cd nomachine
-#makepkg -si
+#makepkg -si --noconfirm
 #sudo pacman -U --noconfirm nomachine*pkg*xz
 #
 #sudo systemctl enable nxserver.service
