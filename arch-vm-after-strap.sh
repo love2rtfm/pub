@@ -24,8 +24,8 @@ echo "root:changeme" | chpasswd
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 
-exit
 # Leave chroot
+exit
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
