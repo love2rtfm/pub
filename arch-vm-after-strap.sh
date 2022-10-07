@@ -1,6 +1,7 @@
 #/bin/sh
 #
 # curl https://raw.githubusercontent.com/love2rtfm/pub/main/arch-vm-after-strap.sh | /bin/sh
+# curl -L tinyurl.com/3j7z5sd7 | /bin/sh
 #
 # Use this after you strap the box with pacstrap
 #
