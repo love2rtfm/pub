@@ -1,6 +1,7 @@
 #!/bin/sh
 #
 # curl https://raw.githubusercontent.com/love2rtfm/pub/main/arch-desktop-stuff.sh | /bin/sh
+# curl -L https://tinyurl.com/2s7zhwrm | /bin/sh
 #
 
 useradd -G wheel -m e
