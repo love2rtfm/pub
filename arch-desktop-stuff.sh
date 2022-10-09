@@ -18,7 +18,7 @@ systemctl start sshd
 # extra stuff
 pacman -S --noconfirm usbutils bash-completion podman traceroute base-devel git
 
-# i3 desktop
+# i3 desktop https://gist.github.com/fjpalacios/441f2f6d27f25ee238b9bfcb068865db
 pacman -S --noconfirm i3
 
 # nx -- Need to do this as non-priv user
