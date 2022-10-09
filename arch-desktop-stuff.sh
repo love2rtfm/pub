@@ -16,7 +16,7 @@ echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 systemctl start sshd
 
 # extra stuff
-pacman -S --noconfirm usbutils bash-completion podman traceroute base-devel git
+pacman -S --noconfirm usbutils bash-completion podman traceroute base-devel git net-tools
 
 # i3 desktop https://gist.github.com/fjpalacios/441f2f6d27f25ee238b9bfcb068865db
 pacman -S --noconfirm i3
