@@ -21,6 +21,9 @@ pacman -S --noconfirm usbutils bash-completion podman traceroute base-devel git 
 # i3 desktop https://gist.github.com/fjpalacios/441f2f6d27f25ee238b9bfcb068865db
 pacman -S --noconfirm i3
 
+# https://low-orbit.net/arch-linux-how-to-install-i3-gaps
+
+
 # nx -- Need to do this as non-priv user
 #git clone https://aur.archlinux.org/nomachine.git
 #cd nomachine
